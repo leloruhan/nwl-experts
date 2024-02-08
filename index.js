@@ -99,7 +99,7 @@ const perguntas = [
         respostas: ["Converte uma string para minúsculas", "Converte uma string para maiúsculas", "Inverte uma string"],
         correta: 1
     }
-    ];
+];
     const quiz = document.querySelector('#quiz');
     const template = document.querySelector('template');
     const correta = new Set();
