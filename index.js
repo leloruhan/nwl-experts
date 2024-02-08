@@ -1,55 +1,5 @@
 const perguntas = [
     {
-        pergunta: "Qual é o nome do mapa principal em League of Legends?",
-        respostas: ["Rift do Invocador", "Acampamento Inimigo", "Arena das Batalhas"],
-        correta: 0
-    },
-    {
-        pergunta: "Quantos jogadores estão em cada time em uma partida padrão de League of Legends?",
-        respostas: ["4", "5", "6"],
-        correta: 1
-    },
-    {
-        pergunta: "Qual é o nome do recurso usado para comprar itens durante uma partida?",
-        respostas: ["Ouro", "Diamantes", "Gold"],
-        correta: 0
-    },
-    {
-        pergunta: "Quem é conhecido como o 'Coração de Freljord' em League of Legends?",
-        respostas: ["Ashe", "Braum", "Lissandra"],
-        correta: 1
-    },
-    {
-        pergunta: "Qual é a rota que geralmente é defendida por um único campeão em League of Legends?",
-        respostas: ["Meio", "Topo", "Selva"],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é o nome do evento anual de campeonato mundial de League of Legends?",
-        respostas: ["Challenger Series", "Worlds", "All-Stars"],
-        correta: 1
-    },
-    {
-        pergunta: "Qual é o objetivo principal de cada equipe em League of Legends?",
-        respostas: ["Destruir a base inimiga", "Matar campeões inimigos", "Coletar buffs"],
-        correta: 0
-    },
-    {
-        pergunta: "Quem é conhecido como o 'Exemplar da Luz' em League of Legends?",
-        respostas: ["Lux", "Garen", "Jarvan IV"],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é o nome do monstro épico que aparece na selva em League of Legends?",
-        respostas: ["Baron Nashor", "Dragão Ancião", "Herald"],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é o nome do estúdio responsável pelo desenvolvimento de League of Legends?",
-        respostas: ["Blizzard Entertainment", "Riot Games", "Valve Corporation"],
-        correta: 1
-    },
-    {
         pergunta: "Qual é a sintaxe correta para comentários em JavaScript?",
         respostas: ["// Este é um comentário", "/* Este é um comentário */", "<!-- Este é um comentário -->"],
         correta: 1
