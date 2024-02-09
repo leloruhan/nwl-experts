@@ -1,53 +1,53 @@
 const perguntas = [
     {
-        pergunta: "Qual é o significado da sigla FDM em Impressão 3D?",
-        respostas: ["Fabricação de Depósitos Fundidos", "Modelagem de Desenhos Físicos", "Filamento de Deposição Fundida"],
-        correta: 2
-    },
-    {
-        pergunta: "Qual é o processo principal utilizado na tecnologia FDM?",
-        respostas: ["Sinterização a Laser", "Deposição de Material Fundido", "Estereolitografia"],
+        pergunta: "Qual é uma das principais aplicações da impressão 3D na odontologia?",
+        respostas: ["Produção de brinquedos", "Criação de modelos anatômicos", "Fabricação de roupas"],
         correta: 1
     },
     {
-        pergunta: "Que tipo de material é comumente utilizado na impressão 3D por FDM?",
-        respostas: ["Resina líquida", "Plástico fundido", "Pó metálico"],
-        correta: 1
+        pergunta: "Que tipo de material é comumente utilizado na impressão 3D de modelos dentários?",
+        respostas: ["Resina fotossensível", "Madeira", "Metal"],
+        correta: 0
     },
     {
-        pergunta: "Qual é o nome do processo utilizado na impressão 3D SLA?",
-        respostas: ["Síntese de Luz Avançada", "Sinterização de Laser Avançada", "Estereolitografia"],
+        pergunta: "Qual é uma das vantagens da impressão 3D na odontologia em comparação com métodos tradicionais?",
+        respostas: ["Maior tempo de produção", "Menor personalização", "Precisão e personalização"],
         correta: 2
     },
     {
-        pergunta: "Qual é a principal diferença entre FDM e SLA em termos de processo?",
-        respostas: ["A fonte de energia utilizada", "O tipo de material utilizado", "A temperatura de operação"],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é uma desvantagem comum da tecnologia FDM em comparação com SLA?",
-        respostas: ["Alta precisão", "Baixa velocidade de impressão", "Custo elevado"],
-        correta: 1
-    },
-    {
-        pergunta: "Qual é uma aplicação comum da tecnologia SLA?",
-        respostas: ["Prototipagem rápida", "Impressão de objetos de grande escala", "Produção em massa"],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é um benefício da tecnologia SLA em comparação com FDM?",
-        respostas: ["Maior variedade de materiais utilizados", "Facilidade de operação", "Baixo consumo de energia"],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é uma característica importante da tecnologia FDM?",
-        respostas: ["Resolução extremamente alta", "Alta velocidade de impressão", "Camadas visíveis no produto final"],
+        pergunta: "Como a impressão 3D pode ser utilizada na fabricação de próteses dentárias?",
+        respostas: ["Para criar peças de baixa qualidade", "Para produzir peças padrão", "Para criar próteses personalizadas"],
         correta: 2
     },
     {
-        pergunta: "Qual é uma desvantagem da tecnologia SLA em comparação com FDM?",
-        respostas: ["Requer peças de suporte", "Baixa resolução", "Limitada variedade de materiais utilizados"],
+        pergunta: "Que tecnologia de impressão 3D é mais comumente utilizada na odontologia?",
+        respostas: ["SLS", "SLA", "FDM"],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é uma das principais limitações da impressão 3D na odontologia?",
+        respostas: ["Alta precisão", "Restrições de materiais e cores", "Baixo custo"],
+        correta: 1
+    },
+    {
+        pergunta: "O que é um scanner intraoral na odontologia?",
+        respostas: ["Um dispositivo para limpeza dos dentes", "Um equipamento para fazer radiografias", "Um aparelho para digitalizar a estrutura dos dentes"],
+        correta: 2
+    },
+    {
+        pergunta: "Qual é o principal benefício da digitalização de modelos dentários na impressão 3D?",
+        respostas: ["Facilidade de armazenamento e reprodução", "Alta complexidade", "Baixa precisão"],
         correta: 0
+    },
+    {
+        pergunta: "O que é um guia cirúrgico na odontologia?",
+        respostas: ["Um instrumento para medir a pressão sanguínea", "Um dispositivo para monitorar os batimentos cardíacos", "Um auxiliar de precisão para cirurgias dentárias baseadas em modelo 3D"],
+        correta: 2
+    },
+    {
+        pergunta: "Qual é um dos desafios da impressão 3D na odontologia?",
+        respostas: ["Baixa personalização", "Regulação e certificação", "Fácil acessibilidade"],
+        correta: 1
     }
 ];
     const quiz = document.querySelector('#quiz');
