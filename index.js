@@ -1,52 +1,52 @@
 const perguntas = [
     {
-        pergunta: "Qual é uma das principais aplicações da impressão 3D na odontologia?",
-        respostas: ["Produção de brinquedos", "Criação de modelos anatômicos", "Fabricação de roupas"],
-        correta: 1
+        pergunta: "Qual é uma das principais desvantagens da tecnologia FDM em relação à SLA?",
+        respostas: ["Custo mais alto", "Menor variedade de materiais", "Menor precisão"],
+        correta: 2
     },
     {
-        pergunta: "Que tipo de material é comumente utilizado na impressão 3D de modelos dentários?",
-        respostas: ["Resina fotossensível", "Madeira", "Metal"],
+        pergunta: "Em qual processo de impressão 3D são utilizados filamentos de material?",
+        respostas: ["FDM", "SLA", "SLS"],
         correta: 0
     },
     {
-        pergunta: "Qual é uma das vantagens da impressão 3D na odontologia em comparação com métodos tradicionais?",
-        respostas: ["Maior tempo de produção", "Menor personalização", "Precisão e personalização"],
+        pergunta: "O que significa a sigla SLA na impressão 3D?",
+        respostas: ["Síntese de Luz Avançada", "Sinterização de Laser Avançada", "Estereolitografia"],
         correta: 2
     },
     {
-        pergunta: "Como a impressão 3D pode ser utilizada na fabricação de próteses dentárias?",
-        respostas: ["Para criar peças de baixa qualidade", "Para produzir peças padrão", "Para criar próteses personalizadas"],
+        pergunta: "Qual é a principal característica da tecnologia SLA?",
+        respostas: ["Baixo custo", "Alta velocidade de impressão", "Alta precisão de detalhes"],
         correta: 2
     },
     {
-        pergunta: "Que tecnologia de impressão 3D é mais comumente utilizada na odontologia?",
-        respostas: ["SLS", "SLA", "FDM"],
+        pergunta: "Como é chamado o processo de fusão de camadas de pó para criar objetos na impressão 3D?",
+        respostas: ["Fusão por Laser", "Fusão Seletiva a Laser", "Fusão de Materiais"],
         correta: 1
     },
     {
-        pergunta: "Qual é uma das principais limitações da impressão 3D na odontologia?",
-        respostas: ["Alta precisão", "Restrições de materiais e cores", "Baixo custo"],
-        correta: 1
-    },
-    {
-        pergunta: "O que é um scanner intraoral na odontologia?",
-        respostas: ["Um dispositivo para limpeza dos dentes", "Um equipamento para fazer radiografias", "Um aparelho para digitalizar a estrutura dos dentes"],
-        correta: 2
-    },
-    {
-        pergunta: "Qual é o principal benefício da digitalização de modelos dentários na impressão 3D?",
-        respostas: ["Facilidade de armazenamento e reprodução", "Alta complexidade", "Baixa precisão"],
+        pergunta: "Qual é uma das principais limitações da tecnologia FDM em termos de precisão?",
+        respostas: ["Baixa resolução de camadas", "Alta velocidade de impressão", "Variedade de materiais"],
         correta: 0
     },
     {
-        pergunta: "O que é um guia cirúrgico na odontologia?",
-        respostas: ["Um instrumento para medir a pressão sanguínea", "Um dispositivo para monitorar os batimentos cardíacos", "Um auxiliar de precisão para cirurgias dentárias baseadas em modelo 3D"],
+        pergunta: "Qual é um dos materiais mais comumente utilizados na tecnologia SLA?",
+        respostas: ["Plástico ABS", "Resina fotossensível", "Nylon"],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é uma das principais vantagens da tecnologia SLS em relação à FDM?",
+        respostas: ["Maior precisão", "Custo mais baixo", "Possibilidade de uso de uma ampla gama de materiais"],
         correta: 2
     },
     {
-        pergunta: "Qual é um dos desafios da impressão 3D na odontologia?",
-        respostas: ["Baixa personalização", "Regulação e certificação", "Fácil acessibilidade"],
+        pergunta: "Qual é o principal benefício da tecnologia FDM em comparação com a SLA?",
+        respostas: ["Alta precisão", "Baixo custo de manutenção", "Facilidade de uso"],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é uma das principais desvantagens da tecnologia SLA?",
+        respostas: ["Baixa resolução", "Alto custo de materiais", "Baixa velocidade de impressão"],
         correta: 1
     }
 ];
