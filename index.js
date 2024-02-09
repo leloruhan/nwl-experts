@@ -1,53 +1,53 @@
 const perguntas = [
     {
-        pergunta: "Qual é a sintaxe correta para comentários em JavaScript?",
-        respostas: ["// Este é um comentário", "/* Este é um comentário */", "<!-- Este é um comentário -->"],
-        correta: 1
-    },
-    {
-        pergunta: "Qual palavra-chave é usada para declarar uma variável em JavaScript?",
-        respostas: ["let", "var", "variable"],
-        correta: 0
-    },
-    {
-        pergunta: "Qual função é usada para imprimir algo no console em JavaScript?",
-        respostas: ["print()", "console.log()", "echo()"],
-        correta: 1
-    },
-    {
-        pergunta: "Como você declara uma função em JavaScript?",
-        respostas: ["function = myFunction()", "function:myFunction()", "function myFunction()"],
+        pergunta: "Qual é o significado da sigla FDM em Impressão 3D?",
+        respostas: ["Fabricação de Depósitos Fundidos", "Modelagem de Desenhos Físicos", "Filamento de Deposição Fundida"],
         correta: 2
     },
     {
-        pergunta: "Qual operador é usado para comparar igualdade em JavaScript?",
-        respostas: ["==", "===", "!=",],
+        pergunta: "Qual é o processo principal utilizado na tecnologia FDM?",
+        respostas: ["Sinterização a Laser", "Deposição de Material Fundido", "Estereolitografia"],
         correta: 1
     },
     {
-        pergunta: "Qual é a maneira correta de escrever um condicional em JavaScript?",
-        respostas: ["if i = 5 then", "if (i == 5)", "if i == 5"],
+        pergunta: "Que tipo de material é comumente utilizado na impressão 3D por FDM?",
+        respostas: ["Resina líquida", "Plástico fundido", "Pó metálico"],
         correta: 1
     },
     {
-        pergunta: "Qual método é usado para adicionar um elemento ao final de um array em JavaScript?",
-        respostas: ["push()", "append()", "addToEnd()"],
-        correta: 0
-    },
-    {
-        pergunta: "Como você acessa o último elemento de um array chamado 'myArray'?",
-        respostas: ["myArray[last]", "myArray.pop()", "myArray[myArray.length - 1]"],
+        pergunta: "Qual é o nome do processo utilizado na impressão 3D SLA?",
+        respostas: ["Síntese de Luz Avançada", "Sinterização de Laser Avançada", "Estereolitografia"],
         correta: 2
     },
     {
-        pergunta: "Qual é a saída do código: console.log(typeof([]))?",
-        respostas: ["array", "object", "string"],
+        pergunta: "Qual é a principal diferença entre FDM e SLA em termos de processo?",
+        respostas: ["A fonte de energia utilizada", "O tipo de material utilizado", "A temperatura de operação"],
+        correta: 0
+    },
+    {
+        pergunta: "Qual é uma desvantagem comum da tecnologia FDM em comparação com SLA?",
+        respostas: ["Alta precisão", "Baixa velocidade de impressão", "Custo elevado"],
         correta: 1
     },
     {
-        pergunta: "O que o método 'toUpperCase()' faz em JavaScript?",
-        respostas: ["Converte uma string para minúsculas", "Converte uma string para maiúsculas", "Inverte uma string"],
-        correta: 1
+        pergunta: "Qual é uma aplicação comum da tecnologia SLA?",
+        respostas: ["Prototipagem rápida", "Impressão de objetos de grande escala", "Produção em massa"],
+        correta: 0
+    },
+    {
+        pergunta: "Qual é um benefício da tecnologia SLA em comparação com FDM?",
+        respostas: ["Maior variedade de materiais utilizados", "Facilidade de operação", "Baixo consumo de energia"],
+        correta: 0
+    },
+    {
+        pergunta: "Qual é uma característica importante da tecnologia FDM?",
+        respostas: ["Resolução extremamente alta", "Alta velocidade de impressão", "Camadas visíveis no produto final"],
+        correta: 2
+    },
+    {
+        pergunta: "Qual é uma desvantagem da tecnologia SLA em comparação com FDM?",
+        respostas: ["Requer peças de suporte", "Baixa resolução", "Limitada variedade de materiais utilizados"],
+        correta: 0
     }
 ];
     const quiz = document.querySelector('#quiz');
